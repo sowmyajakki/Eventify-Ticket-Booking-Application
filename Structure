@@ -1,0 +1,36 @@
+##Structure
+eventify/
+
+├── lib/
+   ├── main.dart
+   │
+   ├── models/
+   │   ├── event_model.dart
+   │   ├── ticket_model.dart
+   │   └── user_model.dart
+   │
+   ├── screens/
+   │   ├── splash_screen.dar
+   │   ├── login_screen.dart
+   │   ├── signup_screen.dart
+   │   ├── home_screen.dart
+   │   ├── event_details_screen.dart
+   │   ├── booking_screen.dart
+   │   ├── payment_screen.dart
+   │   ├── ticket_screen.dart
+   │   └── profile_screen.dart
+   │
+   ├── widgets/
+   │   ├── event_card.dart
+   │   ├── category_card.dart
+   │   └── custom_button.dart
+   │
+   ├── services/
+   │   ├── auth_service.dart
+   │   ├── event_service.dart
+   │   └── booking_service.dart
+   │
+   ├── utils/
+   │   ├── constants.dart
+   │   └── app_theme.dart
+
